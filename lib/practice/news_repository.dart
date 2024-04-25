@@ -1,0 +1,7 @@
+class NewsRepository {
+
+  void getNews() {
+
+  }
+
+}
