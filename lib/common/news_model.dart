@@ -40,7 +40,7 @@ class Article {
   factory Article.fromMap(Map<String, dynamic> map) {
     return Article(
       title: map['title'] as String,
-      description: map['description'] as String,
+      description: (map['description'] != null) ? map['description'] as String: null,
     );
   }
 }
