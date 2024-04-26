@@ -20,6 +20,6 @@ class HomeScreen extends StatelessWidget {
 
   _getNews(BuildContext context) {
     final vm = context.read<ViewModel>();
-    vm.;
+    vm.getNews();
   }
 }
